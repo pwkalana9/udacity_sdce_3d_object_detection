@@ -5,7 +5,7 @@
 ### Visualize range image channels
 LIDAR data includes range measurements and reflected intensity measurements. In this activity, range channel and intensity channels of LIDAR are stacked together in one image as below.
 
-![image](resources/bev.png)
+![image](resources/range_image_stacked.png)
 
 ### Visualize LIDAR point cloud
 ![image](resources/pcl1.png)
