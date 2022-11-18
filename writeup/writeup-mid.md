@@ -117,3 +117,5 @@ By setting the flag configs_det.use_labels_as_objects to True, we can force the 
 ![image](resources/objeval5.png)
 
 ![image](resources/objeval7.png)
+
+Summary: In this project, we use LIDAR range/intenstiy scans with generated point clouds to detect vehicles in the surrounding. Using the pre-trained Darknet model, system achieved precision of 0.996 and recall of 0.813725. It is important to note, false negatives for the vehicles in the proximity could end up in potential collision. That's where multiple sensors could work together to eliminate or reduce the risk of specially the false negatives.
